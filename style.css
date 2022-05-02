@@ -1,0 +1,189 @@
+/* https://coolors.co/5c0029-214e34-eff7f6-8b95c9-392f5a */
+
+/* 
+#221c35
+
+#392F5A 
+eggplant color
+
+#8b95c9*/
+
+#intro {
+    background-color: #221c35;
+    color: white;
+    height: 100vh;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+#intro h1 {
+    font-size: 96px;
+    animation: fadein ease-in 0.5s;
+}
+
+#intro h3 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#intro code {
+    font-size: 25px;
+
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 3.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro #downArrow {
+    font-size: 75px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 37px);
+    color: #8b95c9;
+
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#intro #downArrow:hover {
+    color: #de369d;
+}
+
+section {
+    min-height: 30vh;
+}
+
+#about {
+    background: #392f5a;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    height: 200px;
+}
+
+#contact {
+    background: #8b95c9;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#contact textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#contact .btn {
+    width: 100%;
+    background-color: #de369d;
+    border-color: #392f5a;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+#contactButtons {
+    padding: 10px;
+}
+
+#portfolio {
+    background-color: #dadcfb;
+    padding: 30px;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+#portfolio .card {
+    width: 100%;
+}
+
+footer {
+    background: black;
+    padding: 30px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+body {
+    background-color: #221c35;
+}
+
+.bg-dark {
+    background-color: #8b95c9 !important;
+}
+
+#project {
+    background-color: #392f5a;
+    color: white;
+    padding: 20px;
+}
+
+#project img {
+    border-radius: 10px;
+}
+
+#project #navigateArrows span {
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    #intro h1 {
+        font-size: 48px;
+    }
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+#project a {
+    text-decoration: none;
+}
+
+.material-symbols-outlined:hover {
+    color: #de369d;
+}
